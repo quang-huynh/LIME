@@ -13,6 +13,7 @@
 #' @param time_labels default=NULL, otherwise a vector of time series names
 #' @param plot_type default = "density", alternate = "counts"
 #' @importFrom graphics abline axis barplot box legend lines mtext par
+#' @import dplyr ggplot2
 #' 
 #' @return figure with length composition data and model fits if Report or LBSPR are specified
 #' 
